@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bodybuild">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".sunday"></activity>
+        <activity android:name=".satadv_tab" />
+        <activity android:name=".fridayadv_tab" />
+        <activity android:name=".thuadv_tab" />
+        <activity android:name=".wedadv_tab" />
+        <activity android:name=".wedadv_main" />
+        <activity android:name=".tueadvmain" />
+        <activity android:name=".tueadvtab" />
+        <activity android:name=".mondayadvmain" />
+        <activity android:name=".mondayadv_tab" />
+        <activity android:name=".page_daysadv" />
+        <activity android:name=".homepage" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SatTab" />
+        <activity android:name=".FriTab" />
+        <activity android:name=".WedTab" />
+        <activity android:name=".TuesdayTab" />
+        <activity android:name=".stepssgj" />
+        <activity
+            android:name=".MondayTab"
+            android:parentActivityName=".page_days" />
+        <activity android:name=".page_days" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

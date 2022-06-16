@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmain"
+    tools:context=".Wed_Main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginBottom="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="𝕊ℍ𝕆𝕌𝕃𝔻𝔼ℝ"
+                android:gravity="center"
+                android:background="@drawable/title_background"
+                android:textColor="@color/yellow"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/text_border"
+                    android:text="1.Seated Dumbbell Overhead Press"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 1 : 15 Repetition"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 2 : 12 Repetition"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 3 : 10 Repetition"
+                        />
+                </LinearLayout>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:gravity="center"
+                    android:id="@+id/sdop"
+                    android:src="@drawable/seatedoverheaddumbell"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/text_border"
+                    android:text="2.Dumbbell Lateral Raise"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 1 : 15 Repetition"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 2 : 12 Repetition"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 3 : 10 Repetition"
+                        />
+                </LinearLayout>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:gravity="center"
+                    android:id="@+id/dumbbellLateralRaise"
+                    android:src="@drawable/dumbelraise"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/text_border"
+                    android:textStyle="bold"
+                    android:text="3.Cable Front Raise"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 1 : 15 Repetition"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 2 : 12 Repetition"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 3 : 10 Repetition"
+                        />
+                </LinearLayout>
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:gravity="center"
+                    android:id="@+id/cableFrontRaise"
+                    android:src="@drawable/cablefrontraise1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="𝔸ℝ𝕄𝕊"
+                android:background="@drawable/title_background"
+                android:textColor="@color/yellow"
+                android:layout_marginTop="30dp"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                />
+
+            <LinearLayout
+                android:id="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/text_border"
+                    android:text="1.Olympic Hammer Curl  "
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 1 : 15 Repetition"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 2 : 12 Repetition"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 3 : 10 Repetition"
+                        />
+                </LinearLayout>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:gravity="center"
+                    android:id="@+id/OlympicHammerCurl"
+                    android:src="@drawable/olympichammercurl"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/text_border"
+                    android:text="2.Wrist And Reverse Wrist Curl "
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 1 : 15 Repetition"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 2 : 12 Repetition"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 3 : 10 Repetition"
+                        />
+                </LinearLayout>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:gravity="center"
+                    android:id="@+id/wristAndRiversWrist"
+                    android:src="@drawable/wristandreversecurl"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@drawable/text_border"
+                    android:text="3.Revsrse Barbel Curl"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 1 : 15 Repetition"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 2 : 12 Repetition"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Set 3 : 10 Repetition"
+                        />
+                </LinearLayout>
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:gravity="center"
+                    android:id="@+id/reverseBarbelCurl"
+                    android:src="@drawable/reversebarebellcurl"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgroundmain">
+
+    <Button
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="𝐁𝐄𝐆𝐈𝐍𝐍𝐄𝐑𝐒"
+        android:background="@drawable/homepage_button"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="70dp"
+        android:textSize="30dp"
+        android:textColor="@color/b">
+    </Button>
+
+    <Button
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="𝐀𝐃𝐕𝐀𝐍𝐂𝐄𝐃"
+        android:background="@drawable/homepage_button"
+        android:layout_below="@+id/first"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/b">
+    </Button>
+</RelativeLayout>

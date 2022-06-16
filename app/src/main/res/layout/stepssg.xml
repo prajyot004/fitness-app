@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundmain"
+    tools:context=".stepssgj">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/slbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/homepage_button"
+            android:text="STEP COUNTER"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColorHighlight="@color/red"
+            app:fontFamily="@font/bangers" />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/slbl"
+        android:text="0"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@drawable/effect1"
+        app:fontFamily="@font/russo_one" />
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/calorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calories"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/yellow"
+                android:background="@drawable/head_border"
+                app:fontFamily="@font/russo_one" />
+
+            <TextView
+                android:id="@+id/calcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="0"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/russo_one" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distance"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/yellow"
+                android:background="@drawable/head_border"
+                app:fontFamily="@font/russo_one" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="0"
+                android:id="@+id/discount"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:fontFamily="@font/russo_one" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/russo_one"
+            />
+
+        <Button
+            android:id="@+id/viewAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View all data"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/button_border"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:fontFamily="@font/russo_one"
+            />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete All Data"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:id="@+id/delete"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/russo_one"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Data to Database"
+            android:layout_gravity="center"
+            android:id="@+id/addData"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@drawable/button_border"
+            android:padding="10dp"
+            android:fontFamily="@font/russo_one"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

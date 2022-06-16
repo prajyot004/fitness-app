@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="workout"
+        android:id="@+id/workout"
+        android:icon="@drawable/ic_fitness_center_black_24dp"
+        />
+    <item android:title="StepCounter"
+        android:id="@+id/stepcounter"
+        android:icon="@drawable/ic_directions_run_black_24dp"
+        />
+</menu>

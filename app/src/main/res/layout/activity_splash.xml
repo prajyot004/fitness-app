@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash"
+    android:background="@color/b">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/maingif" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="𝐓𝐡𝐞 𝐫𝐞𝐚𝐥 𝐰𝐨𝐫𝐤𝐨𝐮𝐭 𝐬𝐭𝐚𝐫𝐭𝐬 𝐰𝐡𝐞𝐧 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐬𝐭𝐨𝐩."
+        android:textColor="@color/w"
+        android:fontFamily="@font/bangers"
+        android:layout_marginTop="500dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"/>
+
+
+</RelativeLayout>

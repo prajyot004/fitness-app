@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MondayEnd"
+    android:background="@drawable/backgroundmain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_border"
+                    android:text="sᴛʀᴇᴛᴄʜɪɴɢ"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginRight="90dp"
+                    android:textStyle="bold" />
+
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="360dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:src="@drawable/output"/>
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/l8"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:id="@+id/done"
+                    android:onClick="gotomain"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/done"
+                    tools:ignore="OnClick"
+                    />
+            </RelativeLayout>
+
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:gravity="center"
+                >
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:lottie_rawRes="@raw/celebration1"
+                    android:id="@+id/celebrate1"
+                    />
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:lottie_rawRes="@raw/celebration2"
+                    android:id="@+id/celebrate2"
+                    />
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:lottie_rawRes="@raw/celebration3"
+                    android:id="@+id/celebrate3"
+                    />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".page_days"
+android:orientation="vertical"
+android:background="@drawable/backgroundmain">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="70dp"
+    android:layout_weight="1.0">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            //monday
+
+            <LinearLayout
+                android:clipToOutline="true"
+                android:id="@+id/monday"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:padding="6dp"
+                android:background="@drawable/daystyle"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:background="@drawable/chestadv"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Monday"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="26dp"
+                        android:textAlignment="center"
+                        android:background="@color/divider"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="[chest and biceps]"
+                        android:textSize="25dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/w"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="60 minutes"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/w"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content"/>
+
+            //tuesday
+            <LinearLayout
+                android:clipToOutline="true"
+                android:id="@+id/tuesday"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:padding="6dp"
+                android:background="@drawable/daystyle"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:background="@drawable/bckadv"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tuesday"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="26dp"
+                        android:textAlignment="center"
+                        android:background="@color/divider"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="[Back And Triceps]"
+                        android:textSize="25dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/w"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="60 minutes"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/w"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content"/>
+
+
+            //wednesday
+            <LinearLayout
+                android:clipToOutline="true"
+                android:id="@+id/wednesday"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:padding="6dp"
+                android:background="@drawable/daystyle"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:background="@drawable/shoulderadv"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Wednesday"
+                        android:textColor="@color/black"
+                        android:textSize="26dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:background="@color/divider"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="[Shoulder And Arm]"
+                        android:textSize="25dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/w"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="60 minutes"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/w"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content"/>
+
+            //thursday
+            <LinearLayout
+                android:clipToOutline="true"
+                android:id="@+id/Thursday"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:padding="6dp"
+                android:background="@drawable/daystyle"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:background="@drawable/outdoorgames_modified"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Thursday"
+                        android:textColor="@color/b"
+                        android:textStyle="bold"
+                        android:textSize="26dp"
+                        android:textAlignment="center"
+                        android:background="@color/divider"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="[Out Door Games]"
+                        android:textSize="25dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/w"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content"/>
+
+            //friday
+            <LinearLayout
+                android:clipToOutline="true"
+                android:id="@+id/Friday"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:padding="6dp"
+                android:background="@drawable/daystyle"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:background="@drawable/absadv"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Friday"
+                        android:textColor="@color/b"
+                        android:textStyle="bold"
+                        android:textSize="26dp"
+                        android:textAlignment="center"
+                        android:background="@color/divider"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="[ABS]"
+                        android:textSize="25dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/w"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="60 minutes"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/w"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content"/>
+
+            //saturday
+            <LinearLayout
+                android:clipToOutline="true"
+                android:id="@+id/Saturday"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:padding="6dp"
+                android:background="@drawable/daystyle"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:background="@drawable/legadv"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Saturday"
+                        android:textColor="@color/b"
+                        android:textStyle="bold"
+                        android:textSize="26dp"
+                        android:textAlignment="center"
+                        android:background="@color/divider"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="[Legs]"
+                        android:textSize="25dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/w"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="60 minutes"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textColor="@color/w"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content"/>
+
+            //sunday
+            <LinearLayout
+                android:clipToOutline="true"
+                android:id="@+id/Sunday"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:padding="6dp"
+                android:background="@drawable/daystyle"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:background="@drawable/rest_modified"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:text="Sunday"
+                        android:textColor="@color/b"
+                        android:textStyle="bold"
+                        android:textSize="26dp"
+                        android:textAlignment="center"
+                        android:background="@color/divider"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="[REST]"
+                        android:textSize="25dp"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/w"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+</LinearLayout>
